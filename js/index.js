@@ -3,6 +3,8 @@
 document.getElementById("btn-submit").addEventListener("click", function(event){
     event.preventDefault();
     console.log("gg")
+
+    
      let name = document.getElementById("name").value;
      let errorName = document.getElementById("error-name")
      console.log(name,"name")

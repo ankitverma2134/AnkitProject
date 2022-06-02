@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Source Code Pro', monospace;
+
+}
+
+/* body{
+    background-color: black;
+} */
+
+
+/* ------navbar------ */
+header{
+    background-color: rgb(228, 236, 241);
+}
+.navbar{
+  position: fixed;
+    display:flex;
+    width:100%;
+    margin: 0 auto;
+    background-color: #0a1013;
+   
+  
+}
+.logo img{
+    width:200px;
+    margin-left: 100px;
+}
+.main-links {
+    display: flex;
+justify-content: flex-end;
+    list-style-type: none;
+  font-size: 20px;
+    width:100%;
+    align-items: center;
+}
+.navbar ul{
+    margin-right: 10vw;
+}
+.navbar ul li a{
+    text-decoration: none;
+
+  color: #edf3f5;
+  margin-right: 50px;
+ 
+}
+.navbar ul li a:hover{
+    color: green;
+}
+
+
+    
+
+/* ---------banner-------- */
+.banner{
+    color: white;
+    background-image: url(../images/banner-img8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 600px;
+}
+  
+
+.banner-paragraph1{
+    text-align: center;
+    padding-top: 15%;
+    color: rgb(1, 9, 22);
+    font-size: 30px;
+    font-weight: bold;;
+    
+    
+    }
+.banner-paragraph2{
+text-align: center;
+margin-top: 1%;
+color: rgb(23, 29, 37);
+font-size: 20px;
+font-weight: 800px;
+}
+.banner-paragraph3{
+    text-align: center;
+padding-top: 20px;
+color: rgb(0, 98, 255);
+font-size: 15px;
+font-weight: 800px;
+}
+
+
+/* -------banner-button------ */
+.button
+{
+    background-color: #456269;
+    color: rgb(0, 195, 255);
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+   
+    margin: 15px auto;
+    padding:7px;
+    width:250px;
+    display: block;
+    
+}
+.button:hover{
+    background-color: green;
+    transform: scale(1,1.1);
+}
+
+
+
+/* ------work------- */
+.main{
+    background-color: #edf3f5;
+   width: 100%;
+    height: 440px;
+ 
+   color: rgb(3, 8, 14);
+
+  
+}
+
+h2{
+    text-align: center;
+    padding-top: 50px;
+   width:100%;
+   color:rgb(16, 1, 1);
+   font-size: 50px;
+}
+.work{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.img-parent{
+    display: flex;
+height:50vh;
+    width:100%;
+    padding:10px;
+  
+}
+.main-img{
+ margin:  0 auto;
+ display: flex;
+    width:100%;
+ padding: 10px;
+    height:250px;
+    justify-content: center;
+ 
+    
+}
+
+
+/* -------location------- */
+.location{
+    display: flex;
+}
+.location-para{
+    width:50%;
+    margin: 0 auto;
+    padding-left:50px;
+}
+.location-paragraph1{
+font-size: 35px;
+padding-top: 50px;
+}
+.location-paragraph{
+    width:100%;
+    font-size: 30px;
+    color: greenyellow
+}
+.location-img-div{
+    width:100%;
+    padding:40px 0 0 200px;
+
+}
+.location-images img{
+    width:35%;
+    height:150px;
+}
+
+.location-images img:hover{
+    transform: scale(2,2);
+}
+
+
+
+/* --------Team section-------- */
+
+
+
+
+/* ------TEam------ */
+.h2{
+    color: #010506;
+    text-align: center;
+    margin-top: 5%;
+  font-size: 10vh;
+
+}
+
+
+
+.Team{
+width:100%;
+height:300px;
+
+
+}
+.team-paragraph2{
+   text-align: center;
+   color: #0a1013;
+   
+}
+
+.team-parent{
+    width:80%;
+    display: flex;
+  margin: 0 auto;
+   height: 100%;
+  
+  
+    
+}
+.team-img:hover{
+transform: scale(1,1.2);
+}
+.team-img{
+    width:21%;
+  height: 250px;
+   
+   margin: 10px;
+
+   
+}
+.team-img img{
+    width:100%;
+    height: 70%;
+    margin:5vh 0 0 0vh;
+   
+    
+} 
+.team-paragraph3{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ced2d5;
+    height:70px
+    
+}
+
+
+/* 
+--------price section--------- */
+.price{
+ margin-top: 10%;
+   
+    width: 100%;
+    height: 600px;
+    color: #01090c;
+    box-sizing: border-box;
+   
+}
+.price-heading{
+    text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+}
+.pricing-para{
+    width:70%;
+    text-align: center;
+margin: 0 auto;
+    
+}
+.box-main{
+    display: flex;
+
+    width: 100%;
+   
+}
+.box-price{
+    width:16%;
+    height: 400px;
+    background-color: rgb(12, 1, 1);
+  
+    text-align: center;
+    padding-top: 40px;
+   
+    background-color: #02293c;
+ 
+    margin: 20px auto;
+    border-radius: 5px;
+   
+}
+.box-paragraph-heading{
+    font-size: 25px;
+    background-color: #456269;
+    
+}
+.box-paragraph{
+    font-size: 15px;
+    padding-top: 30px;
+    color: #ced2d5
+   
+}
+
+.box-price-signup{
+    width:12vw;
+    padding:3px;
+    font-size: 20px;
+    height: 45px;
+    margin-top: 4px;
+}
+
+
+
+/* --------services section--------- */
+
+.services-main{
+    height:800px;
+    width:100%;
+    color: #01090c;
+    background-color:lightblue
+}
+.services-heading{
+ font-size: 40px;
+ padding-top: 10px;
+ text-align: center;
+}
+.services-paragraph{
+  text-align:center;
+    width:80%;
+    margin:auto;
+    padding-top:30px;
+    font-size: 20px;
+}
+.services-paragraph2{
+    width:95%;
+    height:50px
+}
+.service-heading-para{
+    font-size: 25px;
+   width: auto;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color:rgb(3, 59, 3)
+}
+.services{
+   
+    color: #01090c;
+  
+    height:10px;
+    
+   padding-top: 5px;
+   display: flex; 
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+.service-box{
+width:24vw;
+ height:22vh;
+font-size: 20px;
+
+ text-align: center;
+ margin: 30px;
+
+ padding-top: 2px;
+
+
+}
+
+
+      /* ---------newletter section------- */
+.newsletter{
+  background: url(../images/bacground.webp);
+  background-repeat: no-repeat;
+ background-size: cover;
+ height: 70vh;
+ align-items: center;
+ margin:  0 auto;
+
+}
+
+.news-para{
+    margin: 0px auto;
+padding-top: 60px;
+font-size: 30px;
+font-weight: bold;
+display: block;
+text-align: center;
+margin: 0 auto;
+}
+.news-paragraph{
+    width: 80vw;
+    text-align: center;
+    padding-top:10px;
+   margin: 0 auto;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.input-email{
+    width:30vw;
+    margin-top:100px;
+    margin:50px auto;
+    height: 5vh;
+    text-align: center;
+    font-size: 30px;
+ color: aliceblue;
+    background-color: rgb(8, 0, 0);
+  
+   justify-content: center;
+   display:inline-flex;
+}
+.box-news{
+  align-items: center;
+  
+   margin: auto;
+}
+
+.news-button{
+    width:15vw;
+    height: 5vh;
+    background-color: rgb(11, 236, 11);
+    border: none;
+    font-size: 25px;
+   display: inline;
+   margin: 0 auto;
+ 
+}
+/* 
+--------contact us -------- */
+.contact-us{
+    height:80vh;
+    
+    color: #030e17;
+    background: url(../images/footer2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-us-heading{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+   font-family: sans-serif;
+}
+.contact-para{
+    color: rgb(0, 11, 0);
+    width: 80vw;
+margin: 0 auto;
+    padding-top:12px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:justify;
+}
+.contact{
+    /* margin-left: 150px;
+    margin-top: 100px; */
+    width: 80%;
+    margin: 0px auto;
+}.input{
+   display: flex;
+margin-top: 100px;
+}
+.contact-input{
+width:28vw;
+ height: 5vh;
+ margin:  10px auto;
+justify-content: center;
+ text-align: center;
+font-size: 25px;
+font-family: sans-serif;
+
+}
+.textarea{
+ display: flex;
+ justify-content: center;
+ margin-top:15px;
+}
+.button2{
+    background-color: #456269;
+    color: rgb(0, 195, 255);
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left:550px;
+    padding:7px;
+    width:250px;
+    display: inline-block;
+}
+
+
+
+
+
+@media only screen and (max-width:768px){
+body{
+    width: 100vw;
+
+}
+
+    .navbar{
+        display: block;
+        width:100%;
+      
+    }
+    
+        .main-links{
+            display: block;
+            flex-direction: column;
+            justify-content: center;
+            text-align:center ;
+            align-items: center;
+            font-size: 30px;
+            padding: 5px;
+           
+            height:300px;
+
+        }
+        .banner{
+        display: block;
+      
+        width: 100%;
+        }
+        .navbar{
+            position: static;
+             
+            
+          }
+          .button{
+         
+            margin-top: 10px;
+            
+            
+            
+                    }.banner{
+                        background-size: cover;
+                    }
+                    .work{
+                        text-align: center;
+                        width:90%;
+                    }
+                .main{
+                       width:100%;
+                        height: 1200px;
+                    }
+                    
+                    
+                    
+                    .img-parent{
+                        flex-direction: column;
+                        width:100%;
+                        height:1000px;
+                        margin:  auto;
+                    }
+
+                   
+                   
+                .location{
+
+                flex-direction: column;
+                    }
+                    /* <------Team-----> */
+
+                    .Team{
+                        height: 1300px;
+                       
+                    }
+
+                    .h2{
+                        width:300px;
+                        font-size: 40px;
+                        margin: auto;
+                        font-weight:bolder;
+                        padding-top: 50px;
+                    
+                    }
+                    .team-paragraph2{
+                        width:92%;
+                        margin: auto;
+                    }
+                    .team-parent{
+                        flex-direction: column;
+                        height:800px;
+                    }
+                    .team-img{
+                        width: 100%;
+                        height:100%;
+                        margin-top: 1px;
+                        padding-top: 2px;
+                    }
+                   
+
+             /* <-----services------> */
+                  .services{
+                      height: 1700px;
+                      width: 100%;
+                      
+                      
+                  }
+.services-main{
+ height:auto;
+
+}
+.service-heading-para{
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    width:80%;
+}
+
+                   .services-paragraph{
+                      width: 100%;
+                      height:180px;
+                   
+
+                   }
+                   .services-paragraph2{
+                       width: 100%;
+                       height:250px;
+                      align-items: center;
+                    
+                      
+                   }
+                   .service-box{
+                       height:250px;
+                       width:100%;
+                   
+                       margin-bottom: 5px;
+                
+                   }
+             /* <------price------> */
+               .price{
+                   height:auto;
+               }
+                .pricing-para{
+                    width:90%;
+                    text-align: center;
+                    padding: 10px;
+                }
+    
+                .box-main{
+                    flex-direction: column;
+                   height: 100%;
+                  
+                }
+                .box-price{
+                    display: block;
+                  width:60%;
+                    margin: 10px auto;
+                    
+
+                }
+               .box-price-signup{
+                   width: auto;
+               }
+
+
+               .box-news{
+                   
+                   display: grid;
+               }
+               .input-email{
+                   width: 80%;
+               }
+               .news-button{
+                   width: 50%;
+                   font-size: 15px;
+               }
+               .input{
+                display: grid;
+               }
+               .contact-input{
+         
+            width:80%;
+               }
+               .contact-us{
+                   height:700px
+               }
+                }
